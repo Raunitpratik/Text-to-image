@@ -18,6 +18,17 @@ Before running the app, make sure you have the following installed:
 - **torch**: Required for GPU acceleration (optional but recommended).
 - **ollama**: To generate creative prompts using the Llama model.
 
+How It Works
+1. User Input:
+The user provides a simple text input for image generation.
+2. Ollama Prompt Generation:
+The text input is passed to the Ollama Llama model, which generates a more creative or refined prompt.
+3. Image Generation with Stable Diffusion:
+The generated prompt is fed to Stable Diffusion, a powerful text-to-image generation model.
+The image is then generated based on the prompt.
+4. Displaying the Image:
+The generated image is displayed in the app, ready for the user to view.
+
 ### Use Cases:
 - **Concept Art**: Generate visualizations for new projects, games, or creative concepts.
 - **Product Design**: Quickly mock up product ideas and design elements.
