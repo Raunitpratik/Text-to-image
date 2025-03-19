@@ -1,6 +1,6 @@
 # Text-to-Image Generation with Ollama and Stable Diffusion
 
-#Overview
+
 This project demonstrates how to create a simple **Streamlit app** that generates images from text input. It combines **Ollama** for text generation (using the Llama model) and **Stable Diffusion** for image generation
 
 
